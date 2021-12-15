@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallerij</title>
+</head>
+<body>
+    <h1>Slideshow Gallerij</h1>
+
+    <button class="Terug" onclick="onClickPrevious()"> Ga Terug </button>
+    <button class="Volgende" onclick="onClickNext()"> Volgende </button>
+    
+    <img id="img"  src="https://4.bp.blogspot.com/-oMLozQSD4AY/UcDo_pL2ueI/AAAAAAAAYQg/k9erpTzDQLI/s1600/BobAmericanShad.jpg">
+
+    <script>
+        var position = 0;
+        var img0 = "https://4.bp.blogspot.com/-oMLozQSD4AY/UcDo_pL2ueI/AAAAAAAAYQg/k9erpTzDQLI/s1600/BobAmericanShad.jpg";
+        var img1 = "https://extension.msstate.edu/sites/default/files/styles/feature/public/news/2020/eo2020313_tripletailfish.jpg?itok=U1L69hDf" ;
+        var img2 = "https://light.rockfishing.co.uk/wp-content/uploads/2015/09/image.jpg" ;
+        var img3 = "https://img.xcitefun.net/users/2014/05/353867,xcitefun-koi-fish-5.jpg" ;
+        var img4 = "http://www.moldychum.com/wp-content/uploads/2020/03/puffer-trumps5.jpg" ;
+        var img5 = "https://suncruisermedia.com/downloads/61/download/credit-Phil-Dawson-2.jpg?cb=3932a128f4aa9ef82b552ad3d48be906&w=-1" ;
+
+        function onClickNext(){
+            var imgElement = document.getElementById("img");
+            position = position + 1
+            console.log("position is "+ position)
+            if(position == 6){
+                position = 0;
+            }
+            if(position == 0){
+                imgElement.src = img1;
+            }
+            if(position == 1){
+                imgElement.src = img2;
+            }
+            if(position == 2){
+                imgElement.src = img3;
+            }
+            if(position == 3){
+                imgElement.src = img4;
+            }
+            if(position == 4){
+                imgElement.src = img5;
+            }
+            if(position == 5){
+                imgElement.src = img0;
+            }
+        }
+        function onClickPrevious(){
+            var imgElement = document.getElementById("img");
+            position = position - 1
+            console.log("position is "+ position)
+            if(position == -1){
+                position = 5;
+            }
+            if(position == 0){
+                imgElement.src = img1;
+            }
+            if(position == 1){
+                imgElement.src = img2;
+            }
+            if(position == 2){
+                imgElement.src = img3;
+            }
+            if(position == 3){
+                imgElement.src = img4;
+            }
+            if(position == 4){
+                imgElement.src = img5;
+            }
+            if(position == 5){
+                imgElement.src = img0;
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(140, 231, 122, 0.562);
+    text-align: center;
+}
+h1{
+    color: rgb(0, 14, 36);
+}
+button{
+    position:relative
+}
+img{
+    height: 30vw;
+}
+.container{
+    width: 700px;
+    
+    margin: auto;
+    align-content: center;
+}
+.knopen{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    left: 45%;
+    height: 50px;
+}

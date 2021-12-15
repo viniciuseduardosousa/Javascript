@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    height:50vw;
+    align-self: stretch;
+}
+button{
+    height: 50px;
+    background-color: #00ffff;
+    padding: 10px;
+}
+img{
+    width: 60vw;
+}
+.Volgende{
+    position: relative;
+}
