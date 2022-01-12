@@ -1,8 +1,8 @@
 # Javascript
 
-1. [Gallerij](/gallerij/index.html)
-2. [Kleuren Veranderen](/KleurenVeranderen/index.html)
-3. [Koelkast](/Koelkast/index.html)
-4. [Table Kleuren](/Table-Kleuren/index.html)
-5. [Tentoonstelling](/Tentoonstelling/index.html)
-6. [Silver Bullet Adventure](Silver-Bullet-Adventure/index.html)
+1. [Gallerij](/gallerij/)
+2. [Kleuren Veranderen](/KleurenVeranderen/)
+3. [Koelkast](/Koelkast/)
+4. [Table Kleuren](/Table-Kleuren/)
+5. [Tentoonstelling](/Tentoonstelling/)
+6. [Silver Bullet Adventure](Silver-Bullet-Adventure/)
